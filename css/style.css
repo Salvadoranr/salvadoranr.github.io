@@ -1,0 +1,110 @@
+@import 'reset.css';
+
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+#container {
+  
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  overflow-y: scroll
+}
+#home {
+  min-height: 100vh;
+}
+#tecnologia {
+  background-color: aquamarine;
+  min-height: 100vh;
+}
+#contacto {
+  background-color: #7672af;
+  min-height: 100vh;
+}
+
+.header {
+  background: #ccc;
+  display: flex;
+  flex-direction: column;
+  height: 72px;
+  overflow: hidden;
+  transition: height 0.5s ease;
+  position: relative;
+}
+.header.header--desplegado {
+  height: 100px;
+}
+.header__title,
+.header__subtitle {
+  margin: 0 0 .5rem;
+}
+.header__menu {
+  display: flex;
+  justify-content: space-evenly;
+}
+.header__menu a {
+  color: #444;
+  font-weight: 900;
+  font-size: 1.2rem;
+  transition: font-size .5s ease;
+}
+.menu__btn {
+  cursor: pointer;
+  position: absolute;
+  right: 1rem;
+  top:1rem;
+  border: 1px solid black;
+  padding: .5rem;
+}
+.header__menu {
+  opacity: 0;
+  transition: opacity .5s ease ;
+}
+.header__menu.header__menu--opacity {
+  opacity: 1;
+}
+.header__menu a:hover{
+  color: #fff;
+  font-size: 1.3rem;
+}
+div{
+  padding: 1rem 1.25rem;
+}
+.perfil__figure {
+  margin: 2rem auto;
+  position:relative;
+  border-radius: 50%;
+  overflow: hidden;
+  max-width: 220px;
+  height: 220px;
+}
+.perfil__figure figcaption {
+  text-align: center;
+  opacity: 0;
+  left:calc(50% - 150px);
+  width: 300px;
+  height: 80px;
+  font-size: 2rem;
+  position: absolute;
+  top:100%;
+  transition: opacity 1s .2s ease, top 3s ease;
+}
+.perfil__figure:hover figcaption {
+  opacity: 1;
+  top:calc(50% - 40px);
+}
+.perfil__figure img {
+  width: 100%;
+  height: 100%;
+  transition: opacity 1s .2s ease;
+}
+.perfil__figure:hover img {
+ opacity: 0.3;
+}
+
