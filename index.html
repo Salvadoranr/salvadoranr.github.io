@@ -1,46 +1,181 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Perfil</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./images/icono.jpeg" type="image/jpeg">
+    <title>SAN</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <main id="container">
-        <header class='header'>
-          <h1 class='header__title'>Salvador N.</h1>
-          <h2 class='header__subtitle'>Fullstack Developer</h2>
-          <span class="menu__btn">Menu</span>
-          <nav class="header__menu">
-            <a href="">
-                Formacion
-            </a>
-            <a href="">
-                Experiencia
-            </a>
-            <a href="">
-                Tecnologias
-            </a>
-            <a href="">
-                Stacks
-            </a>
-          </nav>
+    <main class="container">
+        <header class="header">
+
+
+            <span class="header__span">Acerca de mí</span>
+            <span class="header__span">Formación</span>
+            <span class="header__span">Experiencia</span>
+            <span class="header__span">Tecnologías</span>
+
+            <figure class="menu">
+                <i><svg class="menu-icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="124px" height="124px"
+                        viewBox="0 0 124 124" style="enable-background:new 0 0 124 124;" xml:space="preserve">
+                        <g>
+                            <path d="M112,6H12C5.4,6,0,11.4,0,18s5.4,12,12,12h100c6.6,0,12-5.4,12-12S118.6,6,112,6z" />
+                            <path
+                                d="M112,50H12C5.4,50,0,55.4,0,62c0,6.6,5.4,12,12,12h100c6.6,0,12-5.4,12-12C124,55.4,118.6,50,112,50z" />
+                            <path
+                                d="M112,94H12c-6.6,0-12,5.4-12,12s5.4,12,12,12h100c6.6,0,12-5.4,12-12S118.6,94,112,94z" />
+                        </g>
+                    </svg></i>
+            </figure>
         </header>
-        <article id ="home">
-            <section class="home_perfil">
 
-                <figure class="perfil__figure">
-                   
-                    <img src="./images/pergamino.jpg" alt="foto de perfil" class="">
-                    <figcaption >YO</figcaption>
+        <section id="presentation" class="line">
+            <article>
+                <h1 class="name name--center">
+                    Salvador Nipitella
+                </h1>
+                <h3 class=" name--center">
+                    FullStack developer
+                </h3>
+            </article>
+            <article class="animation">
+
+
+                </article>
+        </section>
+        
+
+        <section id="aboutme" class="line">
+            <figure class="aboutme--center">
+                <img class="imagen" src="./images/icono.jpeg">
+            </figure>
+            <div>
+
+                <h2>
+                    Hola! soy Salvador
+                </h2>
+                <p>
+                    “Ingeniero Civil de profesión y Desarrollador FullStack por
+                    vocación
+                    y ocupación.
+                    Desde pequeño he sentido interés por crear y construir, por eso decidí estudiar ingeniería civil,
+                    luego
+                    gracias a mi hermano, conocí el mundo de la programación.
+                </p>
+                <p>Un mundo donde puedo construir y crear desde otra perspectiva a partir de una computadora y un poco
+                    de
+                    imaginación.
+
+                </p>
+                <p>
+                    Disfruto encontrandole soluciones a los problemas, pensando de forma lógica y viendo los resultados
+                    de algo
+                    que he creado desde cero.
+                </p>
+                <p>
+                    Decidí dedicarme al desarrollo de aplicaciones web por completo porque me apasiona y constantemente
+                    genera nuevos retos
+                    que ponen a prueba mi razonamiento lógico y matemático.
+                </p>
+                <p>
+                    Entre mis planes a futuro esta formarme también como desarrollador de aplicaciones móviles y
+                    trabajar en proyectos innovadores
+                    que ayuden de forma directa o indirecta a las personas.”
+
+
+                </p>
+            </div>
+
+
+        </section>
+
+        <section id="education" class="line">
+
+            <div class="education__slot">
+                <p>
+                    <span class="title">Upgrade Hub</span>
+                    <span class="content">Full Stack developer</span>
+                </p>
+
+                <div class="education--time ">
+                    <div class="dot">
+
+                    </div>
+
+                </div>
+                <figure class="icon__background">
+                    <img src="./images/web.png" alt="" class="icon__size">
                 </figure>
-            </section>
-        </article>
-      </main>
-      <script src="./src/app.js"></script> 
-    
+                <figcaption class="icon__text right">
+                    2020
+                </figcaption>
+            </div>
 
+            <div class="education__slot">
+                    <figcaption class="icon__text left">
+                            2017
+                        </figcaption>
+                <figure class="icon__background">
+                    <img  src="./images/diploma.png" alt="" class="icon__size">
+                </figure>
+                
+
+                <div class="education--time left ">
+                    <div class="dot">
+
+                    </div>
+                </div>
+                <p class="left">
+                    <span class="title">Universidad del Zulia</span>
+                    <span class="title">Ingeniero Civil</span>
+                    <span class="content">Ing. Obras Civiles/Construcción</span>
+                </p>
+
+            </div>
+
+            <div class="education__slot">
+                <p>
+                    <span class="title">Universidad Rafael Belloso Chacin</span>
+                    <span class="content">Inspector en Seguridad, Higiene y Ambiente</span>
+                </p>
+
+                <div class="education--time last">
+                    <div class="dot">
+
+                    </div>
+
+                </div>
+                <figure class =" icon__background">
+                    <img class =" icon__size" src="./images/certificado.png" alt="">
+                </figure>
+                <figcaption class="icon__text right">
+                    2015
+                </figcaption>
+            </div>
+
+        </section>
+
+        <section id="experience" class="line">
+        </section>
+
+        <footer class="footer">
+
+            <aside>
+                <a href="">Contáctame</a>
+            </aside>
+
+
+
+        </footer>
+
+    </main>
+    <script src="./app.js"></script>
 </body>
+
 </html>
