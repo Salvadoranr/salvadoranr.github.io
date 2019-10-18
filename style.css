@@ -45,7 +45,8 @@ body {
     opacity: 0;
     transition: opacity 2s ease-out;
 }
-.anchor--decoration{
+
+.header .header__span .anchor--decoration{
     text-decoration: none;
     color: var(--color-texto-menu);
 }
