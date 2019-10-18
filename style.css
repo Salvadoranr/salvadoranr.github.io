@@ -45,6 +45,10 @@ body {
     opacity: 0;
     transition: opacity 2s ease-out;
 }
+.anchor--decoration{
+    text-decoration: none;
+    color: var(--color-texto-menu);
+}
 
 .header .header--show {
     opacity: 1;
