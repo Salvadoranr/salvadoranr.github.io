@@ -155,15 +155,21 @@ aside a {
 #education .title {
     display: block;
     font-weight: bold;
+    color:var(--color-texto-regular)
+
 }
 
 #education .content {
     display: block;
+    color:var(--color-texto-regular)
 }
 
 #education .icon__text {
     margin: auto;
     font-size: 1.25rem;
+    color:var(--color-texto-regular)
+
+    
 }
 
 #education .icon__size {
