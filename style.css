@@ -251,7 +251,7 @@ aside a {
     * {
         font-size: 22px;
     }
-    .header span {
+    .header .header__span {
         opacity: 1;
     }
     .header span:hover {
