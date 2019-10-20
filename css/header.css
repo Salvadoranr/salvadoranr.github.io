@@ -1,5 +1,4 @@
 
-@import 'general.css';
 .header {
     display: flex;
     flex-wrap: wrap;
@@ -10,6 +9,7 @@
     position: fixed;
     min-width: 100%;
     top: 0;
+    z-index: 1;
 }
 
 .header .header__span {

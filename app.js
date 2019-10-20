@@ -41,7 +41,7 @@ contactMe.addEventListener('click', function(){
     const body = document.body;
     const html = document.documentElement;
 
-    let height = Math.max( body.scrollHeight, body.offsetHeight,html.clientHeight, html.scrollHeight, html.offsetHeight );
+    const height = Math.max( body.scrollHeight, body.offsetHeight,html.clientHeight, html.scrollHeight, html.offsetHeight );
     
     blockDiv.style.display="block";
     blockDiv.style.height=`${height}px`;

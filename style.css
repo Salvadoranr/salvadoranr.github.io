@@ -46,7 +46,6 @@
     #form {
         width: 500px;
         height: 320px;
-        transform: translate(calc(50% - 500px), 20vh);
     }
     #form textarea {
         width: 420px;
