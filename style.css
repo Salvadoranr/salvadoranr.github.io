@@ -1,238 +1,25 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-:root {
-    --color-texto-unknow: #10495A;
-    --color-texto-menu: #ADCADC;
-    --color-texto-regular: #315941;
-    --color-background: #082521;
-    --color-unknow: #6190A4;
-}
-
-* {
-    font-family: 'Roboto', sans-serif;
-}
-
+@import 'css/general.css';
+@import 'css/footer.css';
+@import 'css/header.css';
+@import 'css/animation.css';
+@import 'css/education.css';
+@import 'css/experience.css';
+@import 'css/form.css';
+@import 'css/presentation.css';
+@import 'css/aboutme.css';
 .line {
     border-bottom: 1px solid;
 }
 
-body {
-    margin: 0;
-}
-
-.header {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 12px;
-    background-color: var(--color-background);
-    position: fixed;
-    min-width: 100%;
+.block--all {
+    width: 100%;
+    position: absolute;
     top: 0;
+    background: black;
+    left: 0;
+    opacity: 0.5;
+    display: none;
 }
-
-.footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 12px;
-    background-color: var(--color-background);
-}
-
-.header .header__span {
-    color: var(--color-texto-menu);
-    opacity: 0;
-    transition: opacity 2s ease-out;
-}
-
-.header .header__span .anchor--decoration{
-    text-decoration: none;
-    color: var(--color-texto-menu);
-}
-
-.header .header--show {
-    opacity: 1;
-}
-
-.header .header--show:hover {
-    font-weight: bold;
-    font-size: 1.25rem
-}
-
-.header .header--show.selected {
-    font-weight: bold;
-    font-size: 1.25rem
-}
-
-.menu {
-    display: flex;
-    justify-content: flex-end;
-    margin: 0;
-}
-
-.menu-icon {
-    width: 2rem;
-    height: 2rem;
-    fill: var( --color-texto-menu)
-}
-
-.name {
-    font-size: 2rem;
-    margin-top: 4rem;
-    color: var(--color-texto-regular)
-}
-
-.name--center {
-    text-align: center;
-    color: var(--color-texto-regular);
-}
-
-.animation {
-    height: 20vh;
-    background-color: var( --color-texto-unknow);
-    width: 80%;
-    margin: 2rem auto;
-}
-
-#aboutme {
-    margin: 0 auto;
-    width: 80%;
-}
-
-#aboutme .aboutme--center {
-    text-align: center;
-}
-
-#aboutme .imagen {
-    width: 11rem;
-}
-
-#aboutme p {
-    text-align: justify;
-    color: var(--color-texto-regular);
-}
-
-#aboutme h2 {
-    text-align: center;
-    color: var(--color-texto-regular);
-}
-
-aside a {
-    color: var( --color-texto-menu);
-}
-
-#education {
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    flex-direction: column;
-    align-items: center;
-}
-
-#education .education--time {
-    display: flex;
-    align-items: center;
-    height: 6rem;
-    background-color: var(--color-texto-regular);
-    width: 1.25rem;
-    border-radius: 0px 15px 15px 0px;
-}
-
-#education .education--time.left {
-    transform: rotate(180deg);
-    background-color: var(--color-unknow);
-}
-
-#education .education--time.last {
-    background-color: var(--color-texto-unknow);
-}
-
-#education .education--time .dot {
-    width: 0.4rem;
-    height: 0.4rem;
-    border-radius: 20px;
-    margin: 0 auto;
-    border: 0.2rem solid white;
-}
-
-#education .title {
-    display: block;
-    font-weight: bold;
-    color:var(--color-texto-regular)
-
-}
-
-#education .content {
-    display: block;
-    color:var(--color-texto-regular)
-}
-
-#education .icon__text {
-    margin: auto;
-    font-size: 1.25rem;
-    color:var(--color-texto-regular)
-
-    
-}
-
-#education .icon__size {
-    width: 3rem;
-}
-
-#education .icon__background {
-    background: var(--color-texto-menu);
-    border-radius: 4rem;
-    display: flex;
-    padding: 0.5rem;
-    align-items: center;
-    margin:auto;
-
-}
-
-#education .icon__text.left {
-    margin-right: 0;
-    
-}
-#education .icon__text.right {
-    margin-left: 0;
-    
-}
-
-#education .education__slot {
-    display: flex;
-    width: 80%;
-}
-
-#education .education__slot p {
-    width: 50%;
-}
-
-#education .education__slot p.left {
-    text-align: end;
-}
-
-@keyframes menuP {
-    0% {
-        position: absolute;
-        right: 0;
-        top: calc(10vh);
-    }
-    50% {
-        position: absolute;
-        right: 50%;
-        top: 75vh;
-        font-size: 3rem;
-        height: 3rem;
-    }
-    90% {
-        position: absolute;
-        right: calc(50%);
-        top: 10vh;
-    }
-}
-
 @media (min-width:360px) and (max-width:500px) {
     * {
         font-size: 11px;
@@ -240,18 +27,7 @@ aside a {
     .name {
         margin-top: 6rem;
     }
-    
 }
-
-@media (min-width:900px) {
-    #aboutme {
-        display: flex;
-    }
-    #aboutme .aboutme--center {
-        margin: auto 2rem auto 0;
-    }
-}
-
 @media ( min-width:1024px) {
     * {
         font-size: 22px;
@@ -267,10 +43,16 @@ aside a {
         font-weight: bold;
         font-size: 1.25rem
     }
-}
-
-@media (min-width:500px) and (max-width:600px) {
-    #education {
-        font-size: 14px
+    #form {
+        width: 500px;
+        height: 320px;
+        transform: translate(calc(50% - 500px), 20vh);
+    }
+    #form textarea {
+        width: 420px;
+        height: 125px;
     }
 }
+
+
+

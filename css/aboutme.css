@@ -1,0 +1,32 @@
+@import 'general.css';
+
+#aboutme {
+    margin: 0 auto;
+    width: 80%;
+}
+
+#aboutme .aboutme--center {
+    text-align: center;
+}
+
+#aboutme .imagen {
+    width: 11rem;
+}
+
+#aboutme p {
+    text-align: justify;
+    color: var(--color-texto-regular);
+}
+
+#aboutme h2 {
+    text-align: center;
+    color: var(--color-texto-regular);
+}
+@media (min-width:900px) {
+    #aboutme {
+        display: flex;
+    }
+    #aboutme .aboutme--center {
+        margin: auto 2rem auto 0;
+    }
+}

@@ -1,0 +1,50 @@
+
+@import 'general.css';
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 12px;
+    background-color: var(--color-background);
+    position: fixed;
+    min-width: 100%;
+    top: 0;
+}
+
+.header .header__span {
+    color: var(--color-texto-menu);
+    opacity: 0;
+    transition: opacity 2s ease-out;
+}
+
+.header .header__span .anchor--decoration {
+    text-decoration: none;
+    color: var(--color-texto-menu);
+}
+
+.header .header--show {
+    opacity: 1;
+}
+
+.header .header--show:hover {
+    font-weight: bold;
+    font-size: 1.25rem
+}
+
+.header .header--show.selected {
+    font-weight: bold;
+    font-size: 1.25rem
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+.menu-icon {
+    width: 2rem;
+    height: 2rem;
+    fill: var( --color-texto-menu)
+}

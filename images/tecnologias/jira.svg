@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 434.1 434.1" style="enable-background:new 0 0 434.1 434.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FC490B;}
+	.st1{fill:#F69924;}
+	.st2{fill:#812D7E;}
+	.st3{fill:#CC2137;}
+	.st4{fill:#BD2248;}
+	.st5{fill:#B12053;}
+	.st6{fill:#EA7826;}
+	.st7{fill:#892A79;}
+	.st8{fill:#C7213D;}
+	.st9{fill:#A9215A;}
+	.st10{fill:#E2662E;}
+	.st11{fill:#D74833;}
+	.st12{fill:#E66F2B;}
+	.st13{fill:#DF5B30;}
+	.st14{fill:#DB5233;}
+	.st15{fill:url(#SVGID_1_);}
+	.st16{fill:url(#SVGID_2_);}
+	.st17{fill:#FC6D26;}
+	.st18{fill:#FCA326;}
+	.st19{fill:#8A4182;}
+	.st20{fill:url(#SVGID_5_);}
+	.st21{fill:#2684FF;}
+	.st22{fill:#3DBEAE;}
+	.st23{fill:#349B8B;}
+	.st24{fill:#FFFFFF;}
+	.st25{fill:#99CDC5;}
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_3_" x="-454.1" y="4.2" width="426.4" height="426.4"/>
+	</defs>
+	<clipPath id="SVGID_1_">
+		<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+	</clipPath>
+	<g style="clip-path:url(#SVGID_1_);">
+		
+			<image style="overflow:visible;" width="1500" height="1033" xlink:href="../Jenkins_logo.png"  transform="matrix(0.6561 0 0 0.6561 -733.738 -115.5967)">
+		</image>
+	</g>
+</g>
+<g>
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="16.4424" y1="247.2952" x2="421.3035" y2="186.2443">
+		<stop  offset="0.3194" style="stop-color:#2684FF"/>
+		<stop  offset="0.3266" style="stop-color:#2481FC"/>
+		<stop  offset="0.3917" style="stop-color:#146CE7"/>
+		<stop  offset="0.464" style="stop-color:#095DD8"/>
+		<stop  offset="0.5483" style="stop-color:#0255CF"/>
+		<stop  offset="0.6734" style="stop-color:#0052CC"/>
+	</linearGradient>
+	<path class="st16" d="M412.2,201.1L218.3,4.4c0,0-192,192.5-201.5,201.7c-9.5,9.2-1.9,19-1.9,19l203.3,204.3
+		c0,0,180.4-180.8,196.6-197.2C431,215.8,412.2,201.1,412.2,201.1z M217.8,280.2l-62.6-62.6l62.6-62.6l62.6,62.6L217.8,280.2z"/>
+	<g>
+		<path class="st21" d="M219.8,4.8l194,199c0,0,19.8,14.2-0.8,34.4c-25.3,24.7-57.5,54.6-57.5,54.6l-143.3-144
+			C212.2,148.7,150.2,79,219.8,4.8z"/>
+		<path class="st21" d="M217.6,430.4L21.8,233.2c0,0-20-14.1,0.8-34c23.5-22.5,52.3-50.4,56.8-54.5c0.3-0.3,0.6-0.4,0.9-0.1
+			l144.9,143.1C225.3,287.7,287.8,356.8,217.6,430.4z"/>
+	</g>
+</g>
+</svg>

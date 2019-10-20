@@ -1,0 +1,97 @@
+@import 'general.css';
+#education {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+#education .education--time {
+    display: flex;
+    align-items: center;
+    height: 6rem;
+    background-color: var(--color-texto-regular);
+    width: 1.25rem;
+    border-radius: 0px 15px 15px 0px;
+}
+
+#education .education--time.left {
+    transform: rotate(180deg);
+    background-color: var(--color-unknow);
+    z-index: -1;
+}
+
+#education .education--time.last {
+    background-color: var(--color-texto-unknow);
+}
+
+#education .education--time .dot {
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 20px;
+    margin: 0 auto;
+    border: 0.2rem solid white;
+}
+
+#education .title {
+    display: block;
+    font-weight: bold;
+    color: var(--color-texto-regular)
+}
+
+#education .content {
+    display: block;
+    color: var(--color-texto-regular)
+}
+
+#education .icon__text {
+    margin: auto;
+    font-size: 1.25rem;
+    color: var(--color-texto-regular)
+}
+
+#education .icon__size {
+    width: 3rem;
+}
+
+#education .icon__background {
+    background: var(--color-texto-menu);
+    border-radius: 4rem;
+    display: flex;
+    padding: 0.5rem;
+    align-items: center;
+    margin: auto;
+}
+
+#education .icon__text.left {
+    margin-right: 0;
+}
+
+#education .icon__text.right {
+    margin-left: 0;
+}
+
+#education .education__slot {
+    display: flex;
+    width: 80%;
+}
+
+#education .education__slot p {
+    width: 50%;
+}
+
+#education .education__slot p.left {
+    text-align: end;
+}
+@media (min-width:500px) and (max-width:600px) {
+    #education {
+        font-size: 14px
+    }
+}
+@media (max-width:385px){
+    #education .education__slot {
+        width: 86%;
+    }
+}
