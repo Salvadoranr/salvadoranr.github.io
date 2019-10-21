@@ -1,6 +1,6 @@
 
 .experience {
-    width: 80%;
+    width: var(--sections-width);
     margin: 3rem auto;
 }
 

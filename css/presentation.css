@@ -17,6 +17,10 @@
     display: flex;
     flex-direction: column;
 }
+.presentation{
+width: var(--sections-width);
+margin:0 auto;
+}
 
 .animation .text {
     font-size: 2rem;

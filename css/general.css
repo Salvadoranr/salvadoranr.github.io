@@ -5,6 +5,7 @@
     --color-texto-regular: #315941;
     --color-background: #082521;
     --color-unknow: #6190A4;
+    --sections-width: 80%;
 }
 
 * {
@@ -12,4 +13,9 @@
 }
 body {
     margin: 0;
+}
+@media (min-width:1400px){
+    :root{
+        --sections-width: 60%;
+    }
 }

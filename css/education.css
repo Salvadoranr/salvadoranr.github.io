@@ -4,7 +4,8 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
     flex-direction: column;
-    align-items: center;
+    margin: 0 auto;
+    width: var(--sections-width);
 }
 
 .education .education--time {
@@ -74,7 +75,6 @@
 
 .education .education__slot {
     display: flex;
-    width: 80%;
 }
 
 .education .education__slot p {
