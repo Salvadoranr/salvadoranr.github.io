@@ -1,13 +1,13 @@
 
-#experience {
+.experience {
     width: 80%;
     margin: 3rem auto;
 }
 
-#experience .experience__block {
-    border: 1px solid #00000029;
+.experience .experience__block {
+    border: 1px solid .00000029;
 }
-#experience .experience__block .title__box {
+.experience .experience__block .title__box {
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -15,27 +15,27 @@
     background-color: var(--color-texto-regular);
     padding-left: 11px;
 }
-#experience .experience__block .title__box .title {
+.experience .experience__block .title__box .title {
     color: var(--color-texto-menu);
     text-align: center;
 }
 
-#experience .experience__block .title__box .sub--title {
+.experience .experience__block .title__box .sub--title {
     font-size: 0.75rem;
     opacity: 1;
     font-weight: 100;
     color: var(--color-texto-menu);
     text-align: center;
 }
-#experience .experience__block .experience__content .text {
+.experience .experience__block .experience__content .text {
     color: var(--color-texto-unknow);
     text-align: center;
 }
-#experience .tecnologies{
+.experience .tecnologies{
     width: 2rem;
     padding: 6px;
 }
-#experience .experience__content .block {
+.experience .experience__content .block {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;

@@ -1,4 +1,4 @@
-#education {
+.education {
     display: flex;
     justify-content: center;
     margin-top: 1rem;
@@ -7,7 +7,7 @@
     align-items: center;
 }
 
-#education .education--time {
+.education .education--time {
     display: flex;
     align-items: center;
     height: 6rem;
@@ -16,17 +16,17 @@
     border-radius: 0px 15px 15px 0px;
 }
 
-#education .education--time.left {
+.education .education--time.left {
     transform: rotate(180deg);
     background-color: var(--color-unknow);
     z-index: -1;
 }
 
-#education .education--time.last {
+.education .education--time.last {
     background-color: var(--color-texto-unknow);
 }
 
-#education .education--time .dot {
+.education .education--time .dot {
     width: 0.4rem;
     height: 0.4rem;
     border-radius: 20px;
@@ -34,28 +34,28 @@
     border: 0.2rem solid white;
 }
 
-#education .title {
+.education .title {
     display: block;
     font-weight: bold;
     color: var(--color-texto-regular)
 }
 
-#education .content {
+.education .content {
     display: block;
     color: var(--color-texto-regular)
 }
 
-#education .icon__text {
+.education .icon__text {
     margin: auto;
     font-size: 1.25rem;
     color: var(--color-texto-regular)
 }
 
-#education .icon__size {
+.education .icon__size {
     width: 3rem;
 }
 
-#education .icon__background {
+.education .icon__background {
     background: var(--color-texto-menu);
     border-radius: 4rem;
     display: flex;
@@ -64,33 +64,33 @@
     margin: auto;
 }
 
-#education .icon__text.left {
+.education .icon__text.left {
     margin-right: 0;
 }
 
-#education .icon__text.right {
+.education .icon__text.right {
     margin-left: 0;
 }
 
-#education .education__slot {
+.education .education__slot {
     display: flex;
     width: 80%;
 }
 
-#education .education__slot p {
+.education .education__slot p {
     width: 50%;
 }
 
-#education .education__slot p.left {
+.education .education__slot p.left {
     text-align: end;
 }
 @media (min-width:500px) and (max-width:600px) {
-    #education {
+    .education {
         font-size: 14px
     }
 }
 @media (max-width:385px){
-    #education .education__slot {
+    .education .education__slot {
         width: 86%;
     }
 }

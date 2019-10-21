@@ -7,8 +7,15 @@
 @import 'css/form.css';
 @import 'css/presentation.css';
 @import 'css/aboutme.css';
-.line {
+.hide {
     border-bottom: 1px solid;
+    /* min-height: 100vh;
+    margin-top: 6rem;
+    display:none; */
+}
+.show{
+    min-height: 100vh;
+    margin-top: 6rem;
 }
 
 .block--all {

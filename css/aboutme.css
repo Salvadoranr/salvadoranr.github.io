@@ -1,31 +1,31 @@
 
-#aboutme {
+.aboutme {
     margin: 0 auto;
     width: 80%;
 }
 
-#aboutme .aboutme--center {
+.aboutme .aboutme--center {
     text-align: center;
 }
 
-#aboutme .imagen {
+.aboutme .imagen {
     width: 11rem;
 }
 
-#aboutme p {
+.aboutme p {
     text-align: justify;
     color: var(--color-texto-regular);
 }
 
-#aboutme h2 {
+.aboutme h2 {
     text-align: center;
     color: var(--color-texto-regular);
 }
 @media (min-width:900px) {
-    #aboutme {
+    .aboutme {
         display: flex;
     }
-    #aboutme .aboutme--center {
+    .aboutme .aboutme--center {
         margin: auto 2rem auto 0;
     }
 }
