@@ -46,14 +46,20 @@ function addClass(repeat) {
         }, 500);
     }
 }
+const form = document.getElementById('form');
+
 // logica formulario
 const cancelButton = document.getElementById('cancel');
 cancelButton.addEventListener('click', function () {
     form.style.display = "none";
     blockDiv.style.display = "none";
 });
+// imprimir en pantalla
+form.addEventListener('submit', function(){
+    event.preventDefault();
+    console.log(this.name.value, this.enterprise.value, this.email.value, this.affair.value)
+})
 
-const form = document.getElementById('form');
 const contactMe = document.getElementById('contactme');
 const blockDiv = document.getElementsByClassName('block--all')[0];
 
@@ -78,3 +84,4 @@ projects.addEventListener('click', () => {
     rotate.style.transform = `translateZ(-30vw) rotateY(${angle}deg)`;
     event.preventDefault();
 })
+
